@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon app.ts",
     "tsc": "tsc",
-    "start:prod": "node build/app.js"
+    "start:prod": "node build/app.js",
+    "install-server": "npm install && npm run tsc",
+    "start-server": "node build/app.js"
   },
   "author": "",
   "license": "ISC",
